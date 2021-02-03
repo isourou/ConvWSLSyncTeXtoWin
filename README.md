@@ -6,7 +6,7 @@ TeX compile on WSL is very fast compared to TeX Live for Windows, especially for
 However, as the geneated *.synctex or *.synctex.gz file is based on WSL file path format, it does not work well on Windows, for example VSCode + Latex Workshop internal viewer or VSCode + SmatraPDF.
 
 # How to install
-Put ConcWSLSyncTeXtoWin.py to the same folder with the root .tex file. 
+Put ConvWSLSyncTeXtoWin.py to the same folder with the root .tex file. 
 Add the following entry to settings.json file of VSCode.
 
 ``` settings.json
