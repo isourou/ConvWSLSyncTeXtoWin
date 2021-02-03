@@ -10,6 +10,7 @@ Put ConcWSLSyncTeXtoWin.py to the same folder with the root .tex file.
 Add the following entry to settings.json file of VSCode.
 
 ``` settings.json
+
 "latex-workshop.latex.tools": [
   //WSLでコンパイルしたSyncTeXをWindows形式に変換
   {
@@ -31,6 +32,7 @@ Add the following entry to settings.json file of VSCode.
 ```
 
 ``` ConvWSLSyncTeXtoWin.py 
+
 import os
 import gzip
 import subprocess
